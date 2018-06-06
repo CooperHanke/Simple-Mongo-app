@@ -11,6 +11,7 @@ public class Journal {
 
     @Id
     private String id; // why will this be a string?
+    // derp, it's because this is MongoDB... cool :D
     private String title;
     private Date created;
     private String summary;
